@@ -1,0 +1,44 @@
+body {
+  background-color: #fdd8b5;
+}
+
+.search-form {
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  font-size: 24px;
+  text-align: center;
+
+  border-radius: 30px;
+  background-color: #ffa047;
+
+  input {
+    padding: 5px;
+
+    font-weight: 500;
+
+    border: 3px solid #f21e06;
+    border-radius: 10px;
+  }
+
+  button {
+    margin-left: 10px;
+    padding: 8px 10px;
+
+    font-weight: 500;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #f21e06;
+
+    cursor: pointer;
+  }
+
+  button:hover,
+  button:focus {
+    font-weight: 700;
+    background-color: #c91400;
+    box-shadow: 1px 2px 1px 1px rgba($color: #4b0000, $alpha: 0.7);
+  }
+}
